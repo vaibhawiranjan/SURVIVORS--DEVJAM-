@@ -1,0 +1,13 @@
+{"intents": [
+    {"tags": "greetings",
+    "patterns" : ["hello" , "hi" , "hey" , "good morning" , "good evening" , "what's up?", "i need help" ],
+    "responses" : ["How can I help you?" , "What can I do for you?"]
+    },
+
+    {"tags": "child",
+    "patterns" : ["how can I help a child" , "how can we help children" ],
+    "responses" : ["Reduce screen time and engage in more physical activity"]
+    }
+    
+]
+}
