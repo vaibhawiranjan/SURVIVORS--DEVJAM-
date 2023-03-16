@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    font-size: 30px;
+    margin-top: 20px;
+  /*   margin-left: 10px; */
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    font-family: "Poppins", sans-serif;
+  }
+
+header{
+    margin-top:25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.newspaper {
+  column-count: 2;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* main */
+.main{
+    height: 250px;
+    width:300px;
+    border-style: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url("flower.jpg");;
+}
+* {
+    box-sizing:border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    padding: 64px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    margin-left: auto;
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  .large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #04AA6D;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
+
+/* footer */
+.pos{
+    color: rgb(52, 10, 86);
+    font-weight: bold;
+    font-family:'Times New Roman';
+    margin-left: 8px;
+}
+
+footer{
+    background-color:#f4b4da;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
