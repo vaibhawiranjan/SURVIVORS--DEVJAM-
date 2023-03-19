@@ -678,6 +678,7 @@ section {
 
 
 
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -685,14 +686,7 @@ section {
   padding: 60px 0;
 }
 
-/*--------------------------------------------------------------
-# Resources
---------------------------------------------------------------*/
-.resources {
-  padding: 60px 0;
-}
-
-.resources .member {
+.team .member {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 4px;
@@ -700,34 +694,38 @@ section {
   box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
 }
 
-.resources .member .member-img {
+.team .member .member-img {
   position: relative;
   overflow: hidden;
 }
 
-.resources .member .social i {
-  font-size: 18px;
-}
-
-.resources .member .member-info {
+.team .member .member-info {
   padding: 25px 15px;
 }
 
-.resources .member .member-info h4 {
+.team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
   color: #222222;
 }
 
-.resources .member .member-info span {
+.team .member .member-info h4:hover{
+  color: #106eea;
+}
+
+.team .member .member-info span:hover{
+  color: #106eea;
+}
+
+.team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
   color: #aaaaaa;
 }
 
-.resources .member .member-info p {
+.team .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
