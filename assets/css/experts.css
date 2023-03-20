@@ -395,54 +395,96 @@ body {
   }
   
   
-  .questions {
-    font-size: 30px;
-    align-items: center;
+  *{
     justify-content: center;
-    background-color:#24adf1;
-    height: fit-content;
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: black;
-    padding: 14px;
   }
-  .Que {
-    padding: 10px;
+#q{
+    margin-left: 37%;
+}
+
+.doc1{
+    height:300px;
+    width:100%;
+    background-color: rgb(227, 215, 195);
     margin: 5px;
-    height: 5px;
-
-  }
-  .alternatives{
+    transition: 0.4s;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-  }
-  form {
-    box-shadow: 5px 5px black;
-    background: transparent;
-    margin: 10px;
-    border-radius: 5px;
-  }
-  button {
-    color: #106eea;
-  }
-  button:hover {
-    color: black;
-    background-color: #0c48ca;
-    box-shadow: 5px 5px 8px rgb(47, 142, 206);
-  }
 
-  #submit{
-    margin-left: 40%;
+}
+
+.doc2{
+    height:300px;
+    width:100%;
+    background-color: rgb(225, 224, 188);
+    margin: 5px;
+    width: fit-content;
+    height: fit-content;
     text-align: center;
-    
-  }
+
+}
+
+.doc3{
+    height:300px;
+    width:100%;
+    background-color: rgb(225, 227, 195);
+    margin: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+
+}
+
+.doc4{
+    height:300px;
+    width:100%;
+    background-color: rgb(215, 227, 195);
+    margin: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+
+}
+
+.doc5{
+    height:300px;
+    width:100%;
+    background-color: rgb(195, 227, 198);
+    margin: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+
+}
+
+.doc6{
+    height:300px;
+    width:100%;
+    background-color: rgb(195, 227, 220);
+    margin: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+
+
+}
+
+img{
+    border-radius: 50%;
+    border-style: none;
+    margin-top: 25px;
+    margin-left: 5px;
+    align-content: left;
+    text-align: center;
+}
   
-  #score{
-    color:red;
-    font-weight: bolder;
-    font-size: larger;
-  }
+
+h2{
+    text-align: center;
+}
   
   /*--------------------------------------------------------------
   # Footer
