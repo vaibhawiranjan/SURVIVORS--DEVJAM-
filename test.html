@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>MITRA |Stress Test</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon" />
+    <link href="assets/img/logo.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/test.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo">
+          <a href="home.html">MITRA<span>.</span></a>
+        </h1>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="home.html#hero">Home</a>
+            </li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Services</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="#">Stress Test</a></li>
+                <li>
+                  <a href="information.html">Information about Mental Health</a>
+                </li>
+                <li><a href="lifestyle.html">Lifestyle</a></li>
+                <li>
+                  <a href="family_support.html"
+                    >How Friends and Family can support</a
+                  >
+                </li>
+                <li><a href="#">Consultation with experts</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="home.html#resouces">Resources</a></li>
+            <li><a class="nav-link scrollto" href="home.html#faq">FAQ</a></li>
+            <li>
+              <a class="nav-link scrollto" href="home.html#contact">Helpline</a>
+            </li>
+            <li><a class="nav-link scrollto" href="home.html#team">Team</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+    <main>
+        <div class="questions" id="questions">
+            <h2 class="alternatives" id="alternvatives">For each question, choose from the following alternatives: 0-never, 1-almost never, 2-sometimes,3-fairly often, 4-very often</h2>
+            <label for="Q1">Q1. In the last month,how often have you been upset because of something that happened unexpectedly</label>
+              <input type="number" id="Q1" class ="Que" placeholder="0" required max=4 min=0>
+              <label for="Q2">Q2. In the last month,how often have you felt that you were unable to control the important things in your life?</label>
+              <input type="number" id="Q2" class ="Que" placeholder="0" required max=4 min=0>
+              <label for="Q3">Q3. In the last month,how often have you felt nervous and stressed?</label>
+              <input type="number" id="Q3" class ="Que" placeholder="0" required max=4 min=0>
+              <label for="Q4">Q4. In the last month,how often have you felt confident about your ability to handle your personal problem?</label>
+              <input type="number" id="Q4" class ="Que" placeholder="0" required max=4 min=0>
+              <label for="Q5">Q5. In the last month,how often have you felt that things were going your way</label>
+              <input type="number" id="Q5" class ="Que" placeholder="0" required max=4 min=0>
+              <label for="Q6">Q6. In the last month,how often have you found that you could not cope with all the things that you had to do?</label>
+              <input type="number" id="Q6" class ="Que" placeholder="0" required max=4 min=0>
+              <label for="Q7">Q7. In the last month,how often have you been able to control irritations in your life</label>
+              <input type="number" id="Q7" class ="Que" placeholder="0" required max=4 min=0>
+              <label for="Q8">Q8. In the last month,how often have you felt that you were on top of things?</label>
+              <input type="number" id="Q8" class ="Que" placeholder="0" required max=4 min=0>
+              <label for="Q9">Q9. In the last month,how often have you been angered because of things that happened that were outside of your control?</label>
+              <input type="number" id="Q9" class ="Que" placeholder="0" required max=4 min=0>
+              <label for="Q10">Q10. In the last month,how often have you felt difficulties were piling up so high that you could not overcome them?</label>
+              <input type="number" id="Q10" class ="Que" placeholder="0" required max=4 min=0>
+              <button  id="submit" onclick="func1()">Submit</button>
+              <h1 id ="result"></h1>
+            
+            
+            
+            
+            <p class="score" id="score"></p>
+            
+            
+            
+              </div>
+
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container py-4">
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bizland-bootstrap-business-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          and our team
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main2.js"></script>
+  </body>
+</html>

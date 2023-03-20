@@ -287,3 +287,34 @@
   new PureCounter();
 
 })()
+
+
+ 
+
+function func1(){
+  var e=+document.getElementById("Q1").value;
+  var f=+document.getElementById('Q2').value;
+  var g=+document.getElementById('Q3').value;
+  var a=+document.getElementById('Q4').value;
+  var b=+document.getElementById('Q5').value;
+  var h=+document.getElementById('Q6').value;
+  var c=+document.getElementById('Q7').value;
+  var d=+document.getElementById('Q8').value;
+  var i=+document.getElementById('Q9').value;
+  var j=+document.getElementById('Q10').value;
+
+   var s=16+e+f+g+h-a-c+i+j-d-b;
+ // document.getElementById('score').innerHTML=`${s}`;
+if(0<=s && s<=13){
+  alert("Low stress")
+  document.getElementById("score").innerHTML="LOW STRESS- We advice you to reflect upon your lifestyle.Specialist may be consulted."
+}
+else if(14<=s && s<=26){
+  alert("Moderate stress")
+  document.getElementById("score").innerHTML="MODERATE STRESS- We strongly advice you to change your lifestyle immediately.Specialist must be consulted be."
+}
+else{
+  alert("HIGH STRESS")
+  document.getElementById("score").innerHTML='HIGH STRESS-Specialist must be consulted ASAP. <a link href="https://www.mentalhealth.gov/get-help/immediate-help>Click Here</a>'
+}
+}

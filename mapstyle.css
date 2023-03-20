@@ -1,6 +1,7 @@
-/* body{
-    background-color:brown;
-} */
+*{
+    width: fit-content;
+}
+
 
 .doc1{
     height:300px;
