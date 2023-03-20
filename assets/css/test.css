@@ -396,9 +396,10 @@ body {
   
   
   .questions {
+    font-size: 30px;
     align-items: center;
     justify-content: center;
-    background-color: #106eea;
+    background-color:#24adf1;
     height: fit-content;
     margin-right: 80px;
     margin-left: 80px;
@@ -410,6 +411,7 @@ body {
     padding: 10px;
     margin: 5px;
     height: 5px;
+
   }
   form {
     box-shadow: 5px 5px black;
@@ -418,14 +420,18 @@ body {
     border-radius: 5px;
   }
   button {
-    height: 40px;
-    width: 90px;
     color: #106eea;
   }
   button:hover {
-    background-color: #062b5b;
-    box-shadow: 5px 5px 8px black;
-    font-size: large;
+    color: black;
+    background-color: #0c48ca;
+    box-shadow: 5px 5px 8px rgb(47, 142, 206);
+  }
+
+  #submit{
+    margin-left: 40%;
+    text-align: center;
+    
   }
   
   #score{

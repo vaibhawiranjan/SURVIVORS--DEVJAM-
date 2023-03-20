@@ -307,11 +307,11 @@ function func1(){
  // document.getElementById('score').innerHTML=`${s}`;
 if(0<=s && s<=13){
   alert("Low stress")
-  document.getElementById("score").innerHTML="LOW STRESS- We advice you to reflect upon your lifestyle.Specialist may be consulted."
+  document.getElementById("score").innerHTML="LOW STRESS- We advice you to reflect upon your lifestyle. Specialist may be consulted."
 }
 else if(14<=s && s<=26){
   alert("Moderate stress")
-  document.getElementById("score").innerHTML="MODERATE STRESS- We strongly advice you to change your lifestyle immediately.Specialist must be consulted be."
+  document.getElementById("score").innerHTML="MODERATE STRESS- We strongly advice you to change your lifestyle immediately. Specialist must be consulted be."
 }
 else{
   alert("HIGH STRESS")
