@@ -1,13 +1,22 @@
-*{
-    width: fit-content;
+  *{
+    justify-content: center;
+  }
+#q{
+    margin-left: 37%;
 }
-
 
 .doc1{
     height:300px;
     width:100%;
     background-color: rgb(227, 215, 195);
     margin: 5px;
+    transition: 0.4s;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 
 .doc2{
@@ -15,6 +24,10 @@
     width:100%;
     background-color: rgb(225, 224, 188);
     margin: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+
 }
 
 .doc3{
@@ -22,6 +35,10 @@
     width:100%;
     background-color: rgb(225, 227, 195);
     margin: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+
 }
 
 .doc4{
@@ -29,6 +46,10 @@
     width:100%;
     background-color: rgb(215, 227, 195);
     margin: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+
 }
 
 .doc5{
@@ -36,6 +57,10 @@
     width:100%;
     background-color: rgb(195, 227, 198);
     margin: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+
 }
 
 .doc6{
@@ -43,6 +68,11 @@
     width:100%;
     background-color: rgb(195, 227, 220);
     margin: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+
+
 }
 
 img{
@@ -51,7 +81,9 @@ img{
     margin-top: 25px;
     margin-left: 5px;
     align-content: left;
+    text-align: center;
 }
+  
 
 h2{
     text-align: center;
